@@ -55,8 +55,9 @@ export default function Home({ navigation }) {
     data.append("file", image);
     data.append("upload_preset", "practiceApp");
     data.append("cloud_name", "dzxduud8j");
+    data.append("api_key", "473188795739314");
 
-    fetch("https://api.cloudinary>com/v1_1/dzxduu8j/image/upload", {
+    fetch("https://api.cloudinary.com/v1_1/dzxduu8j/image/upload", {
       method: "post",
       body: data,
     })
